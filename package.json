@@ -2,7 +2,7 @@
   "name": "ado-daily-bug-report",
   "displayName": "ADO Daily Bug Report",
   "description": "Scaffold a Windows-scheduled Azure DevOps daily bug report (Python + PowerShell + Outlook COM) and install Copilot Chat prompt templates.",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "publisher": "PrashantVerma",
   "license": "MIT",
   "icon": "icon.png",
