@@ -1,0 +1,28 @@
+{
+  "name": "ado-daily-bug-report",
+  "displayName": "ADO Daily Bug Report",
+  "description": "Scaffold a Windows-scheduled Azure DevOps daily bug report (Python + PowerShell + Outlook COM) and install Copilot Chat prompt templates.",
+  "version": "0.1.6",
+  "publisher": "PrashantVerma",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prashantdce21MSFT/ado-daily-bug-report"
+  },
+  "bugs": { "url": "https://github.com/prashantdce21MSFT/ado-daily-bug-report/issues" },
+  "homepage": "https://github.com/prashantdce21MSFT/ado-daily-bug-report#readme",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Other", "Snippets"],
+  "keywords": ["azure devops", "ado", "bug report", "scheduled task", "copilot", "prompts"],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      { "command": "adoDailyReport.scaffold", "title": "ADO Daily Report: Scaffold New Report Project" },
+      { "command": "adoDailyReport.installPrompts", "title": "ADO Daily Report: Install Copilot Chat Prompts (.github/prompts)" },
+      { "command": "adoDailyReport.registerTask", "title": "ADO Daily Report: Show Register-ScheduledTask Command" },
+      { "command": "adoDailyReport.runNow", "title": "ADO Daily Report: Run Now (manual test)" }
+    ]
+  }
+}

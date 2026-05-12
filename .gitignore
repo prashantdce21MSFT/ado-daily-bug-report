@@ -1,0 +1,5 @@
+node_modules/
+*.vsix
+_make_icon.py
+AIBS.png
+file.png
